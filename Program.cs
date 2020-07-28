@@ -67,7 +67,7 @@ namespace ConverterIana
                 }
 
                 /*            LINUX CONVERTER              */
-                if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
+                else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
                 {
                     String CutFromIana = item.Id.ToString();
                     int index = CutFromIana.LastIndexOf('/') + 1;
