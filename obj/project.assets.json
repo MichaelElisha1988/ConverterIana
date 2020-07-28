@@ -1,0 +1,191 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NodaTime/2.4.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NodaTime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NodaTime.dll": {}
+        }
+      },
+      "TimeZoneConverter/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
+      "TimeZoneConverter.Posix/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "NodaTime": "2.4.5",
+          "TimeZoneConverter": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.Posix.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.Posix.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NodaTime/2.4.8": {
+      "sha512": "6oKjwf3TNiaNa6HdQyarK+E3sfTzNFNEUZ+7YJpWEbeL25xKG1A/yUh4PsPmWJjJ45fJq+mN/L7EdBLRg7yHwg==",
+      "type": "package",
+      "path": "nodatime/2.4.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/NodaTime.dll",
+        "lib/net45/NodaTime.pdb",
+        "lib/net45/NodaTime.xml",
+        "lib/netstandard1.3/NodaTime.dll",
+        "lib/netstandard1.3/NodaTime.pdb",
+        "lib/netstandard1.3/NodaTime.xml",
+        "lib/netstandard2.0/NodaTime.dll",
+        "lib/netstandard2.0/NodaTime.pdb",
+        "lib/netstandard2.0/NodaTime.xml",
+        "nodatime.2.4.8.nupkg.sha512",
+        "nodatime.nuspec"
+      ]
+    },
+    "TimeZoneConverter/3.2.0": {
+      "sha512": "f0UpF9H+ylj3qjO/l2+Yt0R77FFR327efJwsoXAys6J1fSYFcQPrPVhaGVVWoN79+PVutj0qzj79kuhSPN70gA==",
+      "type": "package",
+      "path": "timezoneconverter/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/TimeZoneConverter.dll",
+        "lib/net35/TimeZoneConverter.xml",
+        "lib/net40/TimeZoneConverter.dll",
+        "lib/net40/TimeZoneConverter.xml",
+        "lib/net45/TimeZoneConverter.dll",
+        "lib/net45/TimeZoneConverter.xml",
+        "lib/net461/TimeZoneConverter.dll",
+        "lib/net461/TimeZoneConverter.xml",
+        "lib/net471/TimeZoneConverter.dll",
+        "lib/net471/TimeZoneConverter.xml",
+        "lib/netstandard1.1/TimeZoneConverter.dll",
+        "lib/netstandard1.1/TimeZoneConverter.xml",
+        "lib/netstandard1.3/TimeZoneConverter.dll",
+        "lib/netstandard1.3/TimeZoneConverter.xml",
+        "lib/netstandard2.0/TimeZoneConverter.dll",
+        "lib/netstandard2.0/TimeZoneConverter.xml",
+        "timezoneconverter.3.2.0.nupkg.sha512",
+        "timezoneconverter.nuspec"
+      ]
+    },
+    "TimeZoneConverter.Posix/2.1.0": {
+      "sha512": "IkFXVggiJhO05mOpjlLUoAqZgLOvYFKGNU06ZNIIWX4w9W1sCE18C5MtCpQZDkRJ7YuwMf/SlLBWCc+pKYo33w==",
+      "type": "package",
+      "path": "timezoneconverter.posix/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/TimeZoneConverter.Posix.dll",
+        "lib/net45/TimeZoneConverter.Posix.xml",
+        "lib/net461/TimeZoneConverter.Posix.dll",
+        "lib/net461/TimeZoneConverter.Posix.xml",
+        "lib/net471/TimeZoneConverter.Posix.dll",
+        "lib/net471/TimeZoneConverter.Posix.xml",
+        "lib/netstandard1.3/TimeZoneConverter.Posix.dll",
+        "lib/netstandard1.3/TimeZoneConverter.Posix.xml",
+        "lib/netstandard2.0/TimeZoneConverter.Posix.dll",
+        "lib/netstandard2.0/TimeZoneConverter.Posix.xml",
+        "timezoneconverter.posix.2.1.0.nupkg.sha512",
+        "timezoneconverter.posix.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "NodaTime >= 2.4.8",
+      "TimeZoneConverter >= 3.2.0",
+      "TimeZoneConverter.Posix >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\misha\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\misha\\OneDrive\\Desktop\\ConverterIana\\ConverterIana\\ConverterIana.csproj",
+      "projectName": "ConverterIana",
+      "projectPath": "C:\\Users\\misha\\OneDrive\\Desktop\\ConverterIana\\ConverterIana\\ConverterIana.csproj",
+      "packagesPath": "C:\\Users\\misha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\misha\\OneDrive\\Desktop\\ConverterIana\\ConverterIana\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\misha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "NodaTime": {
+            "target": "Package",
+            "version": "[2.4.8, )"
+          },
+          "TimeZoneConverter": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
+          "TimeZoneConverter.Posix": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

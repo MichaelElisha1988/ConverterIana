@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConverterIana/1.0.0": {
+        "dependencies": {
+          "NodaTime": "2.4.8",
+          "TimeZoneConverter": "3.2.0",
+          "TimeZoneConverter.Posix": "2.1.0"
+        },
+        "runtime": {
+          "ConverterIana.dll": {}
+        }
+      },
+      "NodaTime/2.4.8": {
+        "runtime": {
+          "lib/netstandard2.0/NodaTime.dll": {
+            "assemblyVersion": "2.4.8.0",
+            "fileVersion": "2.4.8.0"
+          }
+        }
+      },
+      "TimeZoneConverter/3.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "TimeZoneConverter.Posix/2.1.0": {
+        "dependencies": {
+          "NodaTime": "2.4.8",
+          "TimeZoneConverter": "3.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.Posix.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConverterIana/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NodaTime/2.4.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6oKjwf3TNiaNa6HdQyarK+E3sfTzNFNEUZ+7YJpWEbeL25xKG1A/yUh4PsPmWJjJ45fJq+mN/L7EdBLRg7yHwg==",
+      "path": "nodatime/2.4.8",
+      "hashPath": "nodatime.2.4.8.nupkg.sha512"
+    },
+    "TimeZoneConverter/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f0UpF9H+ylj3qjO/l2+Yt0R77FFR327efJwsoXAys6J1fSYFcQPrPVhaGVVWoN79+PVutj0qzj79kuhSPN70gA==",
+      "path": "timezoneconverter/3.2.0",
+      "hashPath": "timezoneconverter.3.2.0.nupkg.sha512"
+    },
+    "TimeZoneConverter.Posix/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IkFXVggiJhO05mOpjlLUoAqZgLOvYFKGNU06ZNIIWX4w9W1sCE18C5MtCpQZDkRJ7YuwMf/SlLBWCc+pKYo33w==",
+      "path": "timezoneconverter.posix/2.1.0",
+      "hashPath": "timezoneconverter.posix.2.1.0.nupkg.sha512"
+    }
+  }
+}

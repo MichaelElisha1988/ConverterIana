@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "UwI2gCCalX/p+oDpIbNXLAN7CWren1em0KLuUkozPALSegs4C0t2mPj6lwcnP6aiIg0XehUTHogDvm5OHvy0Zw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\misha\\OneDrive\\Desktop\\ConverterIana\\ConverterIana\\ConverterIana.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\misha\\.nuget\\packages\\nodatime\\2.4.8\\nodatime.2.4.8.nupkg.sha512",
+    "C:\\Users\\misha\\.nuget\\packages\\timezoneconverter\\3.2.0\\timezoneconverter.3.2.0.nupkg.sha512",
+    "C:\\Users\\misha\\.nuget\\packages\\timezoneconverter.posix\\2.1.0\\timezoneconverter.posix.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
